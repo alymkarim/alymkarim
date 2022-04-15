@@ -4,7 +4,7 @@
 - 🌱 I’m currently learning to code in Python and trying to improve my skills in C programming as well as SQL and HTML
 
 🎧My Spotify:
-[![Spotify]https://novatorem-spotify-alymkarim.vercel.app/]https://open.spotify.com/user/12102488428
+[![Spotify](https://novatorem-spotify-alymkarim.vercel.app/api/spotify)](https://open.spotify.com/user/12102488428)
 
 
 
