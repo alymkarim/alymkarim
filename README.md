@@ -4,7 +4,7 @@
 - 🌱 I’m currently learning to code in Python and trying to improve my skills in C programming as well as SQL and HTML
 
 ### 🎧My Spotify
-[<img src="https://novatorem.ruby.vercel.app/api/spotify" alt="Alya's Spotify Playing" width="350" />](https://open.spotify.com/user/12102488428)
+[<img src="https://novatorem-ruby-vercel.app/api/spotify-playing" alt="Alya's Spotify Playing" width="350" />](https://open.spotify.com/user/12102488428)
 
 <!---
 alymkarim/alymkarim is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
