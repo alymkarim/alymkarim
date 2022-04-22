@@ -4,7 +4,7 @@
 - 🌱 I’m currently learning to code in Python and trying to improve my skills in C programming as well as SQL and HTML
 
 ### 🎧My Spotify
-[<img src="https://novatorem-spotify-ruby.vercel.app/api/spotify" alt="Alya's Spotify Playing" width="350" />](https://open.spotify.com/user/12102488428)
+[<img src="https://novatorem-spotify-alymkarim.vercel.app/api/spotify" alt="Alya's Spotify Playing" width="350" />](https://open.spotify.com/user/12102488428)
 
 
 <!---
