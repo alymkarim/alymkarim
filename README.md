@@ -40,6 +40,11 @@ This project focuses on:
 
 👉 Repo coming soon: `UAV_HumanDetection_YOLO`
 
+![Alya's GitHub Stats](https://github-readme-stats.vercel.app/api?username=alymkarim&show_icons=true&theme=radical)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alymkarim&layout=compact&theme=radical)
+
+
 ### 🎧 Currently Listening on Spotify
 [![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=12102488428&cover_image=true&theme=novatorem&bar_color=1db954&bar_color_cover=true)](https://open.spotify.com/user/12102488428)
 
