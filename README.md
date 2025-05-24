@@ -1,3 +1,5 @@
+![Banner](https://raw.githubusercontent.com/alymkarim/alymkarim/3f333dc42eab085731cce8cacfddf95120abd08a/github%20banner.png)
+
 # 👋 Hi, I'm Alya Karim
 
 🎓 I'm currently pursuing an MSc in Data Analytics at Technological University of the Shannon (TUS), with a focus on real-world, impact-driven solutions in data science and AI.  
