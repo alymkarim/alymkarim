@@ -27,7 +27,7 @@ Thanks for visiting my GitHub — feel free to check out my projects or connect 
 - 🔬 [**Research Project Database System**](https://github.com/alymkarim/Research_Project_Data_System_SQL)  
   SQL-based database system for managing research projects and scientist data across UK & Irish universities.
 
-- 🌍 [**EcoZone Mapper (NASA SpaceApps)**](https://github.com/alymkarim/EcoZone_Mapper_SpaceApps2024)  
+- 🌍 [**EcoZone Mapper (NASA SpaceApps)**](https://github.com/alymkarim/EcoZone-Mapper-GIS-for-Waste-Management-NASA-Space-Apps-2024-)  
   GIS dashboard for waste management and recycling optimization, built for NASA Space Apps 2024.
 
 - 🩺 [**GP Practice Operations Analytics in R**](https://github.com/alymkarim/GP-Practice-Analytics-R-Markdown-Project) 
