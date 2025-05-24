@@ -30,7 +30,7 @@ Thanks for visiting my GitHub — feel free to check out my projects or connect 
 - 🌍 [**EcoZone Mapper (NASA SpaceApps)**](https://github.com/alymkarim/EcoZone_Mapper_SpaceApps2024)  
   GIS dashboard for waste management and recycling optimization, built for NASA Space Apps 2024.
 
-- 🩺 [**GP Practice Operations Analytics in R**](https://github.com/alymkarim/gp-practice-data-analytics-R) 
+- 🩺 [**GP Practice Operations Analytics in R**](https://github.com/alymkarim/GP-Practice-Analytics-R-Markdown-Project) 
 Demonstrates how R and R Markdown can automate data cleaning, visual KPIs, and monthly reports for a busy GP clinic.  
 Includes mock data cleaning, unpaid patient tracking, and HSE reimbursement automation.  
 **Tools**: `tidyverse`, `ggplot2`, `rmarkdown`
