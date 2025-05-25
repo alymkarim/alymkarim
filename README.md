@@ -9,6 +9,10 @@ My journey bridges science and tech — from understanding physical systems to d
 
 Right now, I'm working on my thesis: developing a drone-based human detection system using YOLOv5/YOLOv8 for search and rescue operations. It's all about combining computer vision with practical, field-ready solutions.
 
+Although I've had this GitHub account for a while, I'm now actively building out my portfolio and contributing to open source — especially in areas related to data science, drone tech, and automation.
+
+When I’m not deep in data, you’ll likely find me:
+
 When I’m not deep in data, you’ll likely find me:
 - 📸 Shooting film photography
 - 🎨 Painting (often just for my own walls!)
