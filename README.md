@@ -1,55 +1,49 @@
 ![Banner](https://raw.githubusercontent.com/alymkarim/alymkarim/3f333dc42eab085731cce8cacfddf95120abd08a/github%20banner.png)
 
-# 👋 Hi, I'm Alya Karim
+# 👋 Hey guys! 
 
-🎓 I'm currently pursuing an MSc in Data Analytics at Technological University of the Shannon (TUS), with a focus on real-world, impact-driven solutions in data science and AI.  
-🔬 I hold a BSc (Hons) in Applied Physics from Universiti Teknologi PETRONAS (UTP), which shaped my analytical thinking, problem-solving, and experimentation mindset.
+A little bit about myself? I've just completed my MSc in Data Analytics at Technological University of the Shannon (TUS) and I've worked on several data related projects as well as a focus on a drone-based human detection system using YOLOv5/YOLOv8 for search and rescue operations — combining computer vision with practical, field-ready solutions. In between that I was also working on my Certificate in Software Engineering with Ericsson in TUS and I worked in an Agile team for a project to develop a co-working space website. For my undergrad, I hold a BSc (Hons) in Applied Physics from Universiti Teknologi PETRONAS (UTP), where I got to dive into nanomaterials and graphene research, and picked up some coding along the way working with C and Arduino.
 
-My journey bridges science and tech — from understanding physical systems to designing data-driven tools that support real-life decisions. I'm especially interested in how data, machine learning, and lightweight AI models can be applied in crisis response, sustainability, and innovation.
+Overall, I would say my journey bridges science and tech, from understanding physical systems to designing data-driven tools that support real-life decisions. I'm especially interested in how data, machine learning, and lightweight AI models can be applied in crisis response, sustainability, and innovation. Now, I'm shifting gears a bit and building out some new projects, including a payment plan tracker and a todo list app, with more in the pipeline.
 
-Right now, I'm working on my thesis: developing a drone-based human detection system using YOLOv5/YOLOv8 for search and rescue operations. It's all about combining computer vision with practical, field-ready solutions.
+Although I've had this GitHub account for a while, I'm now actively building out my portfolio and contributing to open source — especially in areas related to data science, drone tech, and automation. (Fair warning: I'm still cleaning up and updating this profile as I go, haha.)
 
-Although I've had this GitHub account for a while, I'm now actively building out my portfolio and contributing to open source — especially in areas related to data science, drone tech, and automation.
+When I'm not deep in data, you'll likely find me:
 
-When I’m not deep in data, you’ll likely find me:
+📸 Shooting film photography
+🎨 Painting (often just for my own walls!)
+✍️ Journaling or writing
+🎧 Listening to ambient playlists on Spotify (depends)
 
-When I’m not deep in data, you’ll likely find me:
-- 📸 Shooting film photography
-- 🎨 Painting (often just for my own walls!)
-- ✍️ Journaling or writing
-- 🎧 Listening to ambient playlists on Spotify
+Thanks for visiting my GitHub — feel free to check out my projects or connect on LinkedIn! 🌿
 
-Thanks for visiting my GitHub — feel free to check out my projects or connect on [LinkedIn](https://www.linkedin.com/in/alya-karim/)! 🌿
+📊 My Data Projects
 
-### 📊 My Data Projects
+🛸 Drone-Based Human Detection for Disaster Management
+A practical system for drone-assisted search and rescue using lightweight object detection models (YOLOv5, YOLOv8). Focuses on efficiency for real-time deployment in disaster zones with limited hardware. Datasets: VisDrone, UAVDT, own dataset
 
-- 🛸 [**Drone-Based Human Detection for Disaster Management**](https://github.com/alymkarim/UAV_HumanDetection_YOLO) *(in progress)*  
-  A practical system for drone-assisted search and rescue using lightweight object detection models (YOLOv5, YOLOv8).  
-  Focuses on efficiency for real-time deployment in disaster zones with limited hardware.  
-  Datasets: Okutama-Action, VisDrone, UAVDT.
+💸 Payment Plan Tracker (in progress)
+A tool for managing and visualizing payment schedules — more details coming soon.
 
-- 🔬 [**Research Project Database System**](https://github.com/alymkarim/Research_Project_Data_System_SQL)  
-  SQL-based database system for managing research projects and scientist data across UK & Irish universities.
+✅ Todo List App (in progress)
+A simple, practical task manager — more details coming soon.
 
-- 🌍 [**EcoZone Mapper (NASA SpaceApps)**](https://github.com/alymkarim/EcoZone-Mapper-GIS-for-Waste-Management-NASA-Space-Apps-2024-)  
-  GIS dashboard for waste management and recycling optimization, built for NASA Space Apps 2024.
+🔬 Research Project Database System
+SQL-based database system for managing research projects and scientist data across UK & Irish universities.
 
-- 🩺 [**GP Practice Operations Analytics in R**](https://github.com/alymkarim/GP-Practice-Analytics-R-Markdown-Project) 
-Demonstrates how R and R Markdown can automate data cleaning, visual KPIs, and monthly reports for a busy GP clinic.  
-Includes mock data cleaning, unpaid patient tracking, and HSE reimbursement automation.  
-**Tools**: `tidyverse`, `ggplot2`, `rmarkdown`
+🌍 EcoZone Mapper (NASA SpaceApps)
+GIS dashboard for waste management and recycling optimization, built for NASA Space Apps 2024.
 
-### 🛸 Featured Research: Human Detection with UAVs
+🩺 GP Practice Operations Analytics in R
+Demonstrates how R and R Markdown can automate data cleaning, visual KPIs, and monthly reports for a busy GP clinic. Includes mock data cleaning, unpaid patient tracking, and HSE reimbursement automation. Tools: tidyverse, ggplot2, rmarkdown
 
-My master's thesis explores how lightweight object detection models (YOLOv5/YOLOv8) can be integrated into UAVs to support real-world search and rescue operations in disaster environments.
+🛸 Featured Research: Human Detection with UAVs
+My master's thesis explored how lightweight object detection models (YOLOv5/YOLOv8) can be integrated into UAVs to support real-world search and rescue operations in disaster environments. This project focused on:
 
-This project focuses on:
 - Training and evaluating object detection on aerial datasets (Okutama-Action, VisDrone, UAVDT)
 - Optimizing for real-time performance on resource-limited drones
 - Addressing environmental challenges like smoke, lighting, and terrain
 - Exploring ethical issues around privacy and deployment in sensitive contexts
-
-👉 Repo coming soon: `UAV_HumanDetection_YOLO`
 
 ![Alya's GitHub Stats](https://github-readme-stats.vercel.app/api?username=alymkarim&show_icons=true&theme=radical)
 
