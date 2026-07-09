@@ -47,6 +47,12 @@ Thanks yall for visiting my GitHub! Do feel free to check out my projects or con
 
 LinkedIn: https://www.linkedin.com/in/alya-karim/
 
+**Comfortable with:**
+![My Skills](https://skillicons.dev/icons?i=py,r,js,html,css,c,java)
+
+**Currently learning:**
+![Learning](https://skillicons.dev/icons?i=react,nodejs,nextjs,stripe)
+
 ### 🎧 Currently Listening on Spotify
 [![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=12102488428&cover_image=true&theme=novatorem&bar_color=1db954&bar_color_cover=true)](https://open.spotify.com/user/12102488428)
 
