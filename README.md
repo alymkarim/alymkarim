@@ -6,49 +6,46 @@ A little bit about myself? I've just completed my MSc in Data Analytics at Techn
 
 Overall, I would say my journey bridges science and tech, from understanding physical systems to designing data-driven tools that support real-life decisions. I'm especially interested in how data, machine learning, and lightweight AI models can be applied in crisis response, sustainability, and innovation. Now, I'm shifting gears a bit and building out some new projects, including a payment plan tracker and a todo list app, with more in the pipeline.
 
-Although I've had this GitHub account for a while, I'm now actively building out my portfolio and contributing to open source — especially in areas related to data science, drone tech, and automation. (Fair warning: I'm still cleaning up and updating this profile as I go, haha.)
+Although I've had this GitHub account for a while, I'm now actively building out my portfolio and contributing to open source — especially in areas related to software engineering, data science, data engineering, and machine learning/AI. (Fair warning: I'm still cleaning up and updating this profile as I go, haha.)
 
 When I'm not deep in data, you'll likely find me:
 
-📸 Shooting film photography
-🎨 Painting (often just for my own walls!)
-✍️ Journaling or writing
-🎧 Listening to ambient playlists on Spotify (depends)
+- 📸 Shooting film photography
+- 🎨 Painting (often just for my own walls!)
+- ✍️ Journaling or writing
+- 🎧 Listening to ambient playlists on Spotify (depends)
 
-Thanks for visiting my GitHub — feel free to check out my projects or connect on LinkedIn! 🌿
+# My Data Projects
 
-*My Data Projects*
-
-Drone-Based Human Detection for Disaster Management
+- *Drone-Based Human Detection for Disaster Management* -
 A practical system for drone-assisted search and rescue using lightweight object detection models (YOLOv5, YOLOv8). Focuses on efficiency for real-time deployment in disaster zones with limited hardware. Datasets: VisDrone, UAVDT, own dataset
 
-💸 Payment Plan Tracker (in progress)
+- *Payment Plan Tracker (in progress)* -
 A tool for managing and visualizing payment schedules — more details coming soon.
 
-✅ Todo List App (in progress)
+- *Todo List App (in progress)* -
 A simple, practical task manager — more details coming soon.
 
-🔬 Research Project Database System
+- *Research Project Database System* -
 SQL-based database system for managing research projects and scientist data across UK & Irish universities.
 
-🌍 EcoZone Mapper (NASA SpaceApps)
+- *EcoZone Mapper (NASA SpaceApps)* -
 GIS dashboard for waste management and recycling optimization, built for NASA Space Apps 2024.
 
-🩺 GP Practice Operations Analytics in R
+- *GP Practice Operations Analytics in R* -
 Demonstrates how R and R Markdown can automate data cleaning, visual KPIs, and monthly reports for a busy GP clinic. Includes mock data cleaning, unpaid patient tracking, and HSE reimbursement automation. Tools: tidyverse, ggplot2, rmarkdown
 
-🛸 Featured Research: Human Detection with UAVs
+- *Featured Research: Human Detection with UAVs* -
 My master's thesis explored how lightweight object detection models (YOLOv5/YOLOv8) can be integrated into UAVs to support real-world search and rescue operations in disaster environments. This project focused on:
 
-- Training and evaluating object detection on aerial datasets (Okutama-Action, VisDrone, UAVDT)
-- Optimizing for real-time performance on resource-limited drones
-- Addressing environmental challenges like smoke, lighting, and terrain
-- Exploring ethical issues around privacy and deployment in sensitive contexts
+  - Training and evaluating object detection on aerial datasets (Okutama-Action, VisDrone, UAVDT)
+  - Optimizing for real-time performance on resource-limited drones
+  - Addressing environmental challenges like smoke, lighting, and terrain
+  - Exploring ethical issues around privacy and deployment in sensitive contexts
 
-![Alya's GitHub Stats](https://github-readme-stats.vercel.app/api?username=alymkarim&show_icons=true&theme=radical)
+Thanks yall for visiting my GitHub! Do feel free to check out my projects or connect on LinkedIn! 
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=alymkarim&layout=compact&theme=radical)
-
+LinkedIn: https://www.linkedin.com/in/alya-karim/
 
 ### 🎧 Currently Listening on Spotify
 [![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=12102488428&cover_image=true&theme=novatorem&bar_color=1db954&bar_color_cover=true)](https://open.spotify.com/user/12102488428)
