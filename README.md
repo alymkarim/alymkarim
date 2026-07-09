@@ -1,6 +1,6 @@
 ![Banner](https://raw.githubusercontent.com/alymkarim/alymkarim/3f333dc42eab085731cce8cacfddf95120abd08a/github%20banner.png)
 
-# 👋 Hey guys! 
+# Hey guys! 
 
 A little bit about myself? I've just completed my MSc in Data Analytics at Technological University of the Shannon (TUS) and I've worked on several data related projects as well as a focus on a drone-based human detection system using YOLOv5/YOLOv8 for search and rescue operations — combining computer vision with practical, field-ready solutions. In between that I was also working on my Certificate in Software Engineering with Ericsson in TUS and I worked in an Agile team for a project to develop a co-working space website. For my undergrad, I hold a BSc (Hons) in Applied Physics from Universiti Teknologi PETRONAS (UTP), where I got to dive into nanomaterials and graphene research, and picked up some coding along the way working with C and Arduino.
 
@@ -17,9 +17,9 @@ When I'm not deep in data, you'll likely find me:
 
 Thanks for visiting my GitHub — feel free to check out my projects or connect on LinkedIn! 🌿
 
-📊 My Data Projects
+*My Data Projects*
 
-🛸 Drone-Based Human Detection for Disaster Management
+Drone-Based Human Detection for Disaster Management
 A practical system for drone-assisted search and rescue using lightweight object detection models (YOLOv5, YOLOv8). Focuses on efficiency for real-time deployment in disaster zones with limited hardware. Datasets: VisDrone, UAVDT, own dataset
 
 💸 Payment Plan Tracker (in progress)
