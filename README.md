@@ -2,29 +2,31 @@
 
 # Hey guys! 
 
-A little bit about myself? I've just completed my MSc in Data Analytics at Technological University of the Shannon (TUS) and I've worked on several data related projects as well as a focus on a drone-based human detection system using YOLOv5/YOLOv8 for search and rescue operations — combining computer vision with practical, field-ready solutions. In between that I was also working on my Certificate in Software Engineering with Ericsson in TUS and I worked in an Agile team for a project to develop a co-working space website. For my undergrad, I hold a BSc (Hons) in Applied Physics from Universiti Teknologi PETRONAS (UTP), where I got to dive into nanomaterials and graphene research, and picked up some coding along the way working with C and Arduino.
+Welcome to my GitHub!
 
-Overall, I would say my journey bridges science and tech, from understanding physical systems to designing data-driven tools that support real-life decisions. I'm especially interested in how data, machine learning, and lightweight AI models can be applied in crisis response, sustainability, and innovation. Now, I'm shifting gears a bit and building out some new projects, including a payment plan tracker and a todo list app, with more in the pipeline.
+I'm Alya, a software engineer and data professional based in Ireland. I recently completed my MSc in Data Analytics at the Technological University of the Shannon (TUS), where my research focused on developing a drone-assisted human detection system using YOLOv5 and YOLOv8 for search and rescue operations. The project combined computer vision, machine learning, and practical deployment considerations to support disaster response in real-world environments.
 
-Although I've had this GitHub account for a while, I'm now actively building out my portfolio and contributing to open source — especially in areas related to software engineering, data science, data engineering, and machine learning/AI. (Fair warning: I'm still cleaning up and updating this profile as I go, haha.)
+Alongside my master's, I completed a Certificate in Software Engineering with Ericsson, where I worked as part of an Agile development team to build a co-working space management system. During Sprint 2, I also had the opportunity to serve as Scrum Master, coordinating the team while contributing to both the frontend and backend of the application.
 
-When I'm not deep in data, you'll likely find me:
+Before that, I completed a BSc (Hons) in Applied Physics at Universiti Teknologi PETRONAS (UTP), where I researched graphene-based nanomaterials and discovered my interest in programming through C and Arduino.
 
-- 📸 Shooting film photography
-- 🎨 Painting (often just for my own walls!)
-- ✍️ Journaling or writing
-- 🎧 Listening to ambient playlists on Spotify (depends)
+Looking back, my journey has been a mix of science, engineering, and software development. I enjoy building systems that solve practical problems, whether that's applying machine learning to disaster management, creating full-stack web applications, designing databases, or exploring AI-powered tools. Lately I've been focusing much more on software engineering while continuing to build on my background in data science and machine learning.
 
-# My Data Projects
+Outside of coding, you'll probably find me shooting film photography, painting, journaling, or listening to whatever Spotify playlist matches the mood that day.
+
+# My Ongoing Projects
+
+Some of the projects I'm currently working on include:
+
+- TaskFlow – A full-stack task and notes management application built with FastAPI, PostgreSQL, SQLAlchemy, TypeScript, and React.
+- Payment & E-commerce Platform (in progress) – A secure full-stack application featuring authentication, Stripe payments, role-based access control, and order management.
+- Real-Time Deepfake Detection (in progress) – A computer vision project using PyTorch and OpenCV for real-time deepfake detection.
+- Personal Portfolio Website (in progress) – Building my own portfolio using React, TypeScript, and Vercel.
+
+# My Other Projects
 
 - *Drone-Based Human Detection for Disaster Management* -
 A practical system for drone-assisted search and rescue using lightweight object detection models (YOLOv5, YOLOv8). Focuses on efficiency for real-time deployment in disaster zones with limited hardware. Datasets: VisDrone, UAVDT, own dataset
-
-- *Payment Plan Tracker (in progress)* -
-A tool for managing and visualizing payment schedules — more details coming soon.
-
-- *Todo List App (in progress)* -
-A simple, practical task manager — more details coming soon.
 
 - *Research Project Database System* -
 SQL-based database system for managing research projects and scientist data across UK & Irish universities.
@@ -35,15 +37,22 @@ GIS dashboard for waste management and recycling optimization, built for NASA Sp
 - *GP Practice Operations Analytics in R* -
 Demonstrates how R and R Markdown can automate data cleaning, visual KPIs, and monthly reports for a busy GP clinic. Includes mock data cleaning, unpaid patient tracking, and HSE reimbursement automation. Tools: tidyverse, ggplot2, rmarkdown
 
-- *Featured Research: Human Detection with UAVs* -
-My master's thesis explored how lightweight object detection models (YOLOv5/YOLOv8) can be integrated into UAVs to support real-world search and rescue operations in disaster environments. This project focused on:
+# Currently Learning
 
-  - Training and evaluating object detection on aerial datasets (Okutama-Action, VisDrone, UAVDT)
-  - Optimizing for real-time performance on resource-limited drones
-  - Addressing environmental challenges like smoke, lighting, and terrain
-  - Exploring ethical issues around privacy and deployment in sensitive contexts
+I'm currently expanding my software engineering skills and building projects around:
 
-Thanks yall for visiting my GitHub! Do feel free to check out my projects or connect on LinkedIn! 
+- Full-stack development
+- System design
+- Cloud deployment
+- Software architecture
+- Testing and CI/CD
+- Data engineering
+- Machine learning engineering
+- AI applications
+
+I'm still in the process of cleaning up and adding projects to this GitHub (it's definitely a work in progress 😅), so not everything I've built is here just yet. I'll be adding more repositories, improving documentation, and sharing new projects as I continue learning and building.
+
+Feel free to explore my repositories, and if you have any questions or just want to connect, you're always welcome to reach out on LinkedIn!
 
 LinkedIn: https://www.linkedin.com/in/alya-karim/
 
