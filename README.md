@@ -1,4 +1,4 @@
-![Banner](https://raw.githubusercontent.com/alymkarim/alymkarim/3f333dc42eab085731cce8cacfddf95120abd08a/github%20banner.png)
+![Banner](f3606ae3-29b8-4c39-88eb-8be921db43ac.png)
 
 # Hey guys! 
 
