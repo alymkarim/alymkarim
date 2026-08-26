@@ -1,60 +1,184 @@
 ![Banner](f3606ae3-29b8-4c39-88eb-8be921db43ac.png)
 
-# Hey guys! 
+# Hi, I'm Alya
 
-Welcome to my GitHub!
+Software engineer and data professional based in Ireland. Recently completed my MSc in Data Analytics at TUS, where I built a drone-assisted human detection system using YOLOv5 and YOLOv8 for search and rescue operations.
 
-I'm Alya, a software engineer and data professional based in Ireland. I recently completed my MSc in Data Analytics at the Technological University of the Shannon (TUS), where my research focused on developing a drone-assisted human detection system using YOLOv5 and YOLOv8 for search and rescue operations. The project combined computer vision, machine learning, and practical deployment considerations to support disaster response in real-world environments.
+Before that, I did a Certificate in Software Engineering with Ericsson, worked as Scrum Master during Sprint 2, and completed a BSc in Applied Physics at UTP where I discovered programming through C and Arduino.
 
-Alongside my master's, I completed a Certificate in Software Engineering with Ericsson, where I worked as part of an Agile development team to build a co-working space management system. During Sprint 2, I also had the opportunity to serve as Scrum Master, coordinating the team while contributing to both the frontend and backend of the application.
+My background is a mix of science, engineering, and software. I like building systems that solve real problems — full-stack apps, machine learning pipelines, databases, AI tools. Lately I'm focused on software engineering while keeping my data science skills sharp.
 
-Before that, I completed a BSc (Hons) in Applied Physics at Universiti Teknologi PETRONAS (UTP), where I researched graphene-based nanomaterials and discovered my interest in programming through C and Arduino.
+Outside of code: film photography, painting, journaling, and Spotify.
 
-Looking back, my journey has been a mix of science, engineering, and software development. I enjoy building systems that solve practical problems, whether that's applying machine learning to disaster management, creating full-stack web applications, designing databases, or exploring AI-powered tools. Lately I've been focusing much more on software engineering while continuing to build on my background in data science and machine learning.
+---
 
-Outside of coding, you'll probably find me shooting film photography, painting, journaling, or listening to whatever Spotify playlist matches the mood that day.
+## Featured Projects
 
-# My Ongoing Projects
+### [DevDesk](https://github.com/alymkarim/DevDesk)
 
-Some of the projects I'm currently working on include:
+Full-stack e-commerce store for developer workspace gear. React, TypeScript, Tailwind CSS, FastAPI, PostgreSQL, Stripe.
 
-- TaskFlow – A full-stack task and notes management application built with FastAPI, PostgreSQL, SQLAlchemy, TypeScript, and React.
-- Payment & E-commerce Platform (in progress) – A secure full-stack application featuring authentication, Stripe payments, role-based access control, and order management.
-- Real-Time Deepfake Detection (in progress) – A computer vision project using PyTorch and OpenCV for real-time deepfake detection.
-- Personal Portfolio Website (in progress) – Building my own portfolio using React, TypeScript, and Vercel.
+- JWT authentication with password reset
+- Product reviews with star ratings
+- Wishlist with heart icon toggle
+- Discount codes (percentage and fixed amount)
+- Order tracking with 4-step status timeline
+- Shopping cart with guest and logged-in support
+- Stripe Checkout integration
+- Docker Compose, GitHub Actions CI
 
-# My Other Projects
+**[Live Demo](https://dev-desk-nine.vercel.app)**
 
-- *Drone-Based Human Detection for Disaster Management* -
-A practical system for drone-assisted search and rescue using lightweight object detection models (YOLOv5, YOLOv8). Focuses on efficiency for real-time deployment in disaster zones with limited hardware. Datasets: VisDrone, UAVDT, own dataset
+---
 
-- *Research Project Database System* -
-SQL-based database system for managing research projects and scientist data across UK & Irish universities.
+### [ResearchIQ](https://github.com/alymkarim/researchiq)
 
-- *EcoZone Mapper (NASA SpaceApps)* -
-GIS dashboard for waste management and recycling optimization, built for NASA Space Apps 2024.
+Full-stack research paper analysis platform with AI-powered insights, search and comparison. Upload PDF papers and get structured analysis back in seconds using heuristic pattern matching or LLM-powered analysis.
 
-- *GP Practice Operations Analytics in R* -
-Demonstrates how R and R Markdown can automate data cleaning, visual KPIs, and monthly reports for a busy GP clinic. Includes mock data cleaning, unpaid patient tracking, and HSE reimbursement automation. Tools: tidyverse, ggplot2, rmarkdown
+- Semantic search across paper collections
+- Side-by-side paper comparison
+- Conversational Q&A with papers using RAG
+- Paper discovery from Semantic Scholar and arXiv
+- Word clouds, keyword networks, methodology timelines
+- Export analysis as PDF or DOCX
 
-# Currently Learning
+**[Live Demo](https://researchiq-omega.vercel.app)**
 
-I'm currently expanding my software engineering skills and building projects around:
+---
+
+### [InsightForge AI](https://github.com/alymkarim/InsightForge-AI)
+
+End-to-end machine learning application for automated model training, comparison, explainability and interactive prediction. Upload a dataset and get trained, explainable predictive models in seconds.
+
+- Automatically adapts to classification and regression problems
+- Trains and compares multiple ML models
+- Feature importance for model interpretation
+- Interactive prediction dashboard
+- Supports CSV, Excel and structured PDF data
+
+**[Live Demo](https://insight-forge-ai-bb4f.vercel.app/)**
+
+---
+
+### [DataForge](https://github.com/alymkarim/dataforge)
+
+Data engineering platform for building reliable, observable and scalable pipelines from raw ingestion to analytics and ML-ready data.
+
+- Bronze, Silver and Gold medallion architecture
+- Automated data quality validation
+- Invalid-record quarantine with lineage preservation
+- Pipeline execution and run-history tracking
+- Observability dashboard
+- PySpark and Delta Lake for distributed processing
+
+**[Live Demo](https://dataforge-ashen.vercel.app/)**
+
+---
+
+### [TaskFlow](https://github.com/alymkarim/taskflow)
+
+Full-stack task and notes management app. FastAPI, PostgreSQL, SQLAlchemy, TypeScript, React.
+
+- Create, edit, complete and delete tasks
+- Filtering and optional notes
+- Responsive interface
+- API and integration tests
+
+**[Live Demo](https://taskflow-six-sandy.vercel.app/)**
+
+---
+
+### [Rescue Vision: Drone-Assisted Human Detection](https://github.com/alymkarim/uav-human-detection)
+
+My MSc research. Real-time computer-vision pipeline for detecting people in aerial imagery for search and rescue operations.
+
+- YOLOv8 with five body-posture classes
+- ~0.81 mAP@0.5, ~25-30 FPS on laptop
+- Dual-scale and tiled inference
+- Object tracking with ByteTrack
+
+**[Live Demo](https://rescuevision.streamlit.app)**
+
+---
+
+## Other Projects
+
+### Software
+
+**[Developer Portfolio](https://github.com/alymkarim)** — React, TypeScript, Vite. Responsive portfolio with interactive project explorer and technical blog. [Live](https://alya-portfolio-jade.vercel.app)
+
+**[UrbanTech Co-Working Spaces](https://github.com/alymkarim/UTCS_Ericsson)** — Java management platform delivered by a six-person Agile team. Authentication, workspace reservations, financial reporting. Served as Scrum Master for Sprint 2.
+
+---
+
+### AI and Machine Learning
+
+**[DeepGuard (Deepfake Detection)](https://github.com/alymkarim)** — Real-time deepfake detection using PyTorch and OpenCV. Video and webcam pipeline for identifying manipulated facial media. *In progress.*
+
+**[Parkinson's Disease Prediction](https://github.com/alymkarim/Advanced-Machine-Learning-for-Health-Data-Handwriting-Classification-Parkinson-s-Disease-Regression)** — Explainable ML using sensor-based handwriting data. Random Forest, Decision Trees, KNN with SHAP feature interpretation.
+
+**AI for MedTech** — RUN-EU collaborative research exploring AI for CT and MRI analysis. International multidisciplinary project on medical imaging.
+
+---
+
+### Data Engineering and Analytics
+
+**[Research Data Management System](https://github.com/alymkarim/Research_Project_Data_System_SQL)** — Relational database for scientists, research projects, funding and outcomes. Normalised schema with advanced SQL and PL/SQL queries. [Video](https://youtu.be/-6CFcrz3PiY)
+
+**[MongoDB Research Query Framework](https://github.com/alymkarim/Research-Project-Database-Design-using-MongoDB)** — NoSQL research dataset with 25 structured queries and aggregation pipelines. [Video](https://youtu.be/ImHuT0ZtSoQ)
+
+**[GP Practice Analytics](https://github.com/alymkarim/GP-Practice-Analytics-R-Markdown-Project)** — Operational analytics and reporting for an Irish GP practice. R, R Markdown, dplyr, ggplot2.
+
+**Irish Agricultural Productivity Dashboard** — Tableau dashboard combining crop, weather and market trends for Irish regions.
+
+---
+
+### Research
+
+**[Graphene-Iron Oxide Biosensor](https://iopscience.iop.org/article/10.1088/1755-1315/842/1/012016/meta)** — Award-winning impedimetric biosensor for detecting the mycotoxin zearalenone. SEDEX43 Gold FYP Award, Best Presenter, Best Poster.
+
+**Thermally Conductive 3D-Printing Resin** — Nanocomposite research to improve thermal conductivity of printable resins.
+
+**[Graphene/CNT Foam for Oil-Spill Cleanup](https://github.com/alymkarim)** — Recyclable oleophilic nanomaterial foam for oil-water separation.
+
+**Dye-Sensitized Solar Cells** — Low-cost photovoltaic research focused on improving light absorption.
+
+---
+
+### Sustainability
+
+**[EcoZone Mapper](https://github.com/alymkarim/EcoZone-Mapper-GIS-for-Waste-Management-NASA-Space-Apps-2024-)** — GIS waste-management analytics built for NASA Space Apps 2024.
+
+**[Umbrella Green](https://github.com/alymkarim)** — Award-winning modular rainwater-harvesting concept for climate-resilient cities. EU TalentOn second place.
+
+**[UTP-UIR Riau Community Service](https://www.facebook.com/profile.php?id=100068842090190)** — Solar-panel installation and science outreach for a rural island community in Indonesia. Served as Vice President.
+
+**Auto-Vent** — Automated vehicle ventilation concept to reduce hot-car incidents. Intel CREST semi-finalist.
+
+**Aquatic-Plant Wastewater Treatment** — Team study of natural water treatment measured using flame AAS.
+
+---
+
+## Currently Working On
+
+- **Real-Time Deepfake Detection** — Computer vision with PyTorch and OpenCV
+
+---
+
+## Learning
 
 - Full-stack development
-- System design
+- System design and software architecture
 - Cloud deployment
-- Software architecture
 - Testing and CI/CD
 - Data engineering
 - Machine learning engineering
-- AI applications
 
-I'm still in the process of cleaning up and adding projects to this GitHub (it's definitely a work in progress 😅), so not everything I've built is here just yet. I'll be adding more repositories, improving documentation, and sharing new projects as I continue learning and building.
+---
 
-Feel free to explore my repositories, and if you have any questions or just want to connect, you're always welcome to reach out on LinkedIn!
+## Connect
 
-LinkedIn: https://www.linkedin.com/in/alya-karim/
+[LinkedIn](https://www.linkedin.com/in/alya-karim/)
 
 **Comfortable with:**
 ![My Skills](https://skillicons.dev/icons?i=py,r,js,html,css,c,java)
