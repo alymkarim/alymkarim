@@ -101,19 +101,31 @@ My MSc research. Real-time computer-vision pipeline for detecting people in aeri
 
 ---
 
+### [DeepGuard (Deepfake Detection)](https://github.com/alymkarim/DeepGuard-Deepfake-Detector)
+
+Deepfake video detector. EfficientNet-B0 trained on Vertex AI, exported to ONNX and served from a Flask function on Vercel. Scores a video frame by frame and shows the test metrics next to the verdict.
+
+- Videos split 70/15/15 before any frames are extracted, so no video leaks across the split
+- Two-stage training: frozen backbone first, then the last two blocks fine-tuned
+- ONNX export verified against PyTorch before it ships
+- Face detection in the browser with MediaPipe, only the face crops get uploaded
+- Test accuracy 0.513, ROC-AUC 0.548 — the demo page says so too
+
+**[Live Demo](https://deep-guard-deepfake-detector.vercel.app/)**
+
+---
+
 ## Other Projects
 
 ### Software
 
-**[Developer Portfolio](https://github.com/alymkarim)** — React, TypeScript, Vite. Responsive portfolio with interactive project explorer and technical blog. [Live](https://alya-portfolio-jade.vercel.app)
+**[Developer Portfolio](https://github.com/alymkarim/alya-portfolio)** — React, TypeScript, Vite. Responsive portfolio with interactive project explorer and technical blog. [Live](https://alya-portfolio-jade.vercel.app)
 
 **[UrbanTech Co-Working Spaces](https://github.com/alymkarim/UTCS_Ericsson)** — Java management platform delivered by a six-person Agile team. Authentication, workspace reservations, financial reporting. Served as Scrum Master for Sprint 2.
 
 ---
 
 ### AI and Machine Learning
-
-**[DeepGuard (Deepfake Detection)](https://github.com/alymkarim)** — Real-time deepfake detection using PyTorch and OpenCV. Video and webcam pipeline for identifying manipulated facial media. *In progress.*
 
 **[Parkinson's Disease Prediction](https://github.com/alymkarim/Advanced-Machine-Learning-for-Health-Data-Handwriting-Classification-Parkinson-s-Disease-Regression)** — Explainable ML using sensor-based handwriting data. Random Forest, Decision Trees, KNN with SHAP feature interpretation.
 
@@ -161,7 +173,7 @@ My MSc research. Real-time computer-vision pipeline for detecting people in aeri
 
 ## Currently Working On
 
-- **Real-Time Deepfake Detection** — Computer vision with PyTorch and OpenCV
+- **DeepGuard** — retraining on a larger dataset, then scoring videos across frames instead of one frame at a time
 
 ---
 
