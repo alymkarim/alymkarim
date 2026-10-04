@@ -2,11 +2,11 @@
 
 # Hi, I'm Alya
 
-Software engineer and data professional based in Ireland. Recently completed my MSc in Data Analytics at TUS, where I built a drone-assisted human detection system using YOLOv5 and YOLOv8 for search and rescue operations.
+I build software: full-stack apps, machine learning pipelines, and the data work underneath them. I'm based in Ireland.
 
-Before that, I did a Certificate in Software Engineering with Ericsson, worked as Scrum Master during Sprint 2, and completed a BSc in Applied Physics at UTP where I discovered programming through C and Arduino.
+I completed my MSc in Data Analytics at TUS, where I built a drone-assisted human detection system for search and rescue, using YOLOv5 and YOLOv8 to pick people out of aerial footage. Before that, a Certificate in Software Engineering with Ericsson, where I was Scrum Master in Sprint 2, and a BSc in Applied Physics at UTP, which is where programming started for me: C and an Arduino.
 
-My background is a mix of science, engineering, and software. I like building systems that solve real problems — full-stack apps, machine learning pipelines, databases, AI tools. Lately I'm focused on software engineering while keeping my data science skills sharp.
+Physics into data into engineering is a strange path, but it means I'm comfortable anywhere from a database schema to a training run. Lately I've been leaning into software engineering while keeping the data science sharp.
 
 Outside of code: film photography, painting, journaling, and Spotify.
 
@@ -16,16 +16,15 @@ Outside of code: film photography, painting, journaling, and Spotify.
 
 ### [DevDesk](https://github.com/alymkarim/DevDesk)
 
-Full-stack e-commerce store for developer workspace gear. React, TypeScript, Tailwind CSS, FastAPI, PostgreSQL, Stripe.
+E-commerce store for developer workspace gear, from product catalog through Stripe checkout.
 
 - JWT authentication with password reset
-- Product reviews with star ratings
-- Wishlist with heart icon toggle
-- Discount codes (percentage and fixed amount)
-- Order tracking with 4-step status timeline
-- Shopping cart with guest and logged-in support
-- Stripe Checkout integration
-- Docker Compose, GitHub Actions CI
+- Reviews, wishlist and discount codes (percentage or fixed amount)
+- Order tracking with a four step status timeline
+- Cart that works for both guests and signed in users
+- Docker Compose for local development, GitHub Actions for CI
+
+**Stack:** FastAPI, React, TypeScript, Tailwind CSS, PostgreSQL, Stripe
 
 **[Live Demo](https://dev-desk-nine.vercel.app)**
 
@@ -33,28 +32,32 @@ Full-stack e-commerce store for developer workspace gear. React, TypeScript, Tai
 
 ### [ResearchIQ](https://github.com/alymkarim/researchiq)
 
-Full-stack research paper analysis platform with AI-powered insights, search and comparison. Upload PDF papers and get structured analysis back in seconds using heuristic pattern matching or LLM-powered analysis.
+Research paper analysis platform. Upload PDFs and get objectives, methodology, findings, strengths and limitations pulled out in seconds.
 
-- Semantic search across paper collections
-- Side-by-side paper comparison
-- Conversational Q&A with papers using RAG
+- Semantic search across a paper collection
+- Side by side comparison of two papers
+- Conversational Q&A over your own papers using RAG
 - Paper discovery from Semantic Scholar and arXiv
-- Word clouds, keyword networks, methodology timelines
+- Word clouds, keyword networks and methodology timelines
 - Export analysis as PDF or DOCX
 
-**[Live Demo](https://researchiq-omega.vercel.app)**
+**Stack:** Python, FastAPI, SQLAlchemy, FAISS, scikit-learn, OpenAI SDK, React, TypeScript, PostgreSQL on Supabase
+
+**[Live Demo](https://researchiq-omega.vercel.app)** · **[API docs](https://researchiq.onrender.com/docs)**
 
 ---
 
 ### [InsightForge AI](https://github.com/alymkarim/InsightForge-AI)
 
-End-to-end machine learning application for automated model training, comparison, explainability and interactive prediction. Upload a dataset and get trained, explainable predictive models in seconds.
+Machine learning platform that trains, compares and explains models from a single dataset upload.
 
-- Automatically adapts to classification and regression problems
-- Trains and compares multiple ML models
-- Feature importance for model interpretation
-- Interactive prediction dashboard
-- Supports CSV, Excel and structured PDF data
+- Adapts automatically to classification and regression targets
+- Trains and compares several models side by side
+- Feature importance for every trained model
+- Interactive dashboard for running predictions
+- Accepts CSV, Excel and structured PDF data
+
+**Stack:** Python, FastAPI, Pandas, scikit-learn, React, TypeScript
 
 **[Live Demo](https://insight-forge-ai-bb4f.vercel.app/)**
 
@@ -62,14 +65,16 @@ End-to-end machine learning application for automated model training, comparison
 
 ### [DataForge](https://github.com/alymkarim/dataforge)
 
-Data engineering platform for building reliable, observable and scalable pipelines from raw ingestion to analytics and ML-ready data.
+Data engineering platform taking raw event data all the way to analytics ready tables.
 
 - Bronze, Silver and Gold medallion architecture
-- Automated data quality validation
-- Invalid-record quarantine with lineage preservation
-- Pipeline execution and run-history tracking
-- Observability dashboard
+- Automated data quality validation at every stage
+- Invalid records quarantined with lineage preserved
+- Pipeline execution history and run tracking
+- Observability dashboard over the whole flow
 - PySpark and Delta Lake for distributed processing
+
+**Stack:** Python, FastAPI, Pandas, PySpark, Delta Lake, Databricks, React, TypeScript, pytest
 
 **[Live Demo](https://dataforge-ashen.vercel.app/)**
 
@@ -77,14 +82,16 @@ Data engineering platform for building reliable, observable and scalable pipelin
 
 ### [TaskFlow](https://github.com/alymkarim/taskflow)
 
-Full-stack task and notes management app. FastAPI, PostgreSQL, SQLAlchemy, TypeScript, React.
+Task and notes app with a React frontend talking to a documented REST API.
 
-- Create, edit, complete and delete tasks
-- Filtering and optional notes
-- Responsive interface
-- API and integration tests
+- Create, complete and delete tasks with optional notes
+- FastAPI REST API with Pydantic validation
+- API and integration test suite
+- Frontend on Vercel, API on Render, database on Supabase
 
-**[Live Demo](https://taskflow-six-sandy.vercel.app/)**
+**Stack:** React, TypeScript, FastAPI, SQLAlchemy, PostgreSQL, Docker
+
+**[Live Demo](https://taskflow-six-sandy.vercel.app/)** · **[API docs](https://taskflow-i5u3.onrender.com/docs)**
 
 ---
 
@@ -96,6 +103,8 @@ My MSc research. Real-time computer-vision pipeline for detecting people in aeri
 - ~0.81 mAP@0.5, ~25-30 FPS on laptop
 - Dual-scale and tiled inference
 - Object tracking with ByteTrack
+
+**Stack:** Python, PyTorch, YOLOv8, ByteTrack, Streamlit
 
 **[Live Demo](https://rescuevision.streamlit.app)**
 
@@ -110,6 +119,8 @@ Deepfake video detector. EfficientNet-B0 trained on Vertex AI, exported to ONNX 
 - ONNX export verified against PyTorch before it ships
 - Face detection in the browser with MediaPipe, only the face crops get uploaded
 - Test accuracy 0.513, ROC-AUC 0.548 — the demo page says so too
+
+**Stack:** Python, PyTorch, EfficientNet-B0, ONNX Runtime, Flask, Streamlit, MediaPipe, OpenCV, Vertex AI
 
 **[Live Demo](https://deep-guard-deepfake-detector.vercel.app/)**
 
