@@ -142,13 +142,13 @@ Learning: system design, cloud deployment, testing and CI/CD, data engineering, 
 
 ## Connect
 
-[LinkedIn](https://www.linkedin.com/in/alya-karim/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alya-karim/)
 
 **Comfortable with:**
 ![My Skills](https://skillicons.dev/icons?i=py,ts,js,r,c,java,react,nodejs,postgres,docker,git,linux)
 
 **Currently learning:**
-![Learning](https://skillicons.dev/icons?i=rust,nextjs,stripe,aws)
+![Learning](https://skillicons.dev/icons?i=rust,nextjs,aws)
 
 ### 🎧 Currently listening on Spotify
 
