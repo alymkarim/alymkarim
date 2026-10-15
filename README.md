@@ -2,220 +2,159 @@
 
 # Hi, I'm Alya
 
-I build software: full-stack apps, machine learning pipelines, and the data work underneath them. I'm based in Ireland.
+I build software in Python and TypeScript: full stack apps, machine learning pipelines, and the data work underneath them. Based in Ireland.
 
-I completed my MSc in Data Analytics at TUS, where I built a drone-assisted human detection system for search and rescue, using YOLOv5 and YOLOv8 to pick people out of aerial footage. Before that, a Certificate in Software Engineering with Ericsson, where I was Scrum Master in Sprint 2, and a BSc in Applied Physics at UTP, which is where programming started for me: C and an Arduino.
+I did my MSc in Data Analytics at TUS, where I built a drone assisted human detection system for search and rescue, using YOLOv8 to pick people out of aerial footage. Before that a Certificate in Software Engineering with Ericsson, where I was Scrum Master in Sprint 2, and a BSc in Applied Physics at UTP, which is where programming started for me with C and an Arduino.
 
-Physics into data into engineering is a strange path, but it means I'm comfortable anywhere from a database schema to a training run. Lately I've been leaning into software engineering while keeping the data science sharp.
+Physics into data into engineering is a strange path, but it means I am comfortable anywhere from a database schema to a training run. Lately I have been leaning into software engineering while keeping the data science sharp.
+
+**What I reach for most:** Python, TypeScript, SQL, React, FastAPI, PyTorch, PostgreSQL, Docker, Linux
 
 Outside of code: film photography, painting, journaling, and Spotify.
 
----
-
 ## Featured Projects
 
-### [DevDesk](https://github.com/alymkarim/DevDesk)
+### [ContagionLab](https://github.com/alymkarim/ContagionLab)
 
-E-commerce store for developer workspace gear, from product catalog through Stripe checkout.
+Financial contagion engine. It builds correlation networks from asset returns and pushes shocks through them to show where systemic risk spreads.
 
-- JWT authentication with password reset
-- Reviews, wishlist and discount codes (percentage or fixed amount)
-- Order tracking with a four step status timeline
-- Cart that works for both guests and signed in users
-- Docker Compose for local development, GitHub Actions for CI
+* Six network construction methods compared, with Random Matrix Theory filtering to cut noise
+* Monte Carlo stress tests and replays of past crises such as 2008
+* FastAPI backend with a React frontend and an interactive force graph
 
-**Stack:** FastAPI, React, TypeScript, Tailwind CSS, PostgreSQL, Stripe
+**Stack:** Python, FastAPI, NetworkX, pandas, React, TypeScript
 
-**[Live Demo](https://dev-desk-nine.vercel.app)**
+**[Live Demo](https://contagionlab.vercel.app)**
 
----
+### [driftwatch](https://github.com/alymkarim/driftwatch)
+
+Population drift monitor. It compares the data a model was validated against with the data it is scoring now, and flags the features that moved.
+
+* Written in Rust, using PSI and KS statistics with six behavioural tests
+* Exits with a nonzero status so it can gate a model promotion in CI
+* GitHub Actions pipeline and tagged releases with native binaries
+
+**Stack:** Rust, csv, GitHub Actions
+
+**[Releases](https://github.com/alymkarim/driftwatch/releases)**
 
 ### [ResearchIQ](https://github.com/alymkarim/researchiq)
 
-Research paper analysis platform. Upload PDFs and get objectives, methodology, findings, strengths and limitations pulled out in seconds.
+Research paper analysis platform. Upload a PDF and get objectives, methodology, findings, strengths and limitations pulled out in seconds.
 
-- Semantic search across a paper collection
-- Side by side comparison of two papers
-- Conversational Q&A over your own papers using RAG
-- Paper discovery from Semantic Scholar and arXiv
-- Word clouds, keyword networks and methodology timelines
-- Export analysis as PDF or DOCX
+* Semantic search across a paper collection using RAG
+* Side by side comparison of two papers
+* Runs on OpenAI, Groq, Anthropic, Google and Ollama models
 
-**Stack:** Python, FastAPI, SQLAlchemy, FAISS, scikit-learn, OpenAI SDK, React, TypeScript, PostgreSQL on Supabase
+**Stack:** Python, FastAPI, FAISS, OpenAI SDK, React, TypeScript, PostgreSQL
 
 **[Live Demo](https://researchiq-omega.vercel.app)** · **[API docs](https://researchiq.onrender.com/docs)**
-
----
 
 ### [InsightForge AI](https://github.com/alymkarim/InsightForge-AI)
 
 Machine learning platform that trains, compares and explains models from a single dataset upload.
 
-- Adapts automatically to classification and regression targets
-- Trains and compares several models side by side
-- Feature importance for every trained model
-- Interactive dashboard for running predictions
-- Accepts CSV, Excel and structured PDF data
+* Works out whether it is classification or regression, then compares several models
+* Feature importance for every trained model
+* Interactive dashboard for running predictions
 
-**Stack:** Python, FastAPI, Pandas, scikit-learn, React, TypeScript
+**Stack:** Python, FastAPI, Pandas, React, TypeScript
 
 **[Live Demo](https://insight-forge-ai-bb4f.vercel.app/)**
 
----
+### [DevDesk](https://github.com/alymkarim/DevDesk)
+
+Online store for developer workspace gear, from product catalog through checkout.
+
+* JWT authentication with password reset, plus reviews, wishlist and discount codes
+* Cart for guests and signed in users, with order tracking
+* Docker Compose for local development and GitHub Actions for CI
+
+**Stack:** FastAPI, React, TypeScript, Tailwind CSS, PostgreSQL, Stripe
+
+**[Live Demo](https://dev-desk-nine.vercel.app)**
 
 ### [DataForge](https://github.com/alymkarim/dataforge)
 
 Data engineering platform taking raw event data all the way to analytics ready tables.
 
-- Bronze, Silver and Gold medallion architecture
-- Automated data quality validation at every stage
-- Invalid records quarantined with lineage preserved
-- Pipeline execution history and run tracking
-- Observability dashboard over the whole flow
-- PySpark and Delta Lake for distributed processing
+* Bronze, Silver and Gold medallion architecture with validation at every stage
+* Invalid records quarantined and lineage preserved
+* Observability dashboard over the whole flow
 
 **Stack:** Python, FastAPI, Pandas, PySpark, Delta Lake, Databricks, React, TypeScript, pytest
 
 **[Live Demo](https://dataforge-ashen.vercel.app/)**
 
----
+### [Rescue Vision](https://github.com/alymkarim/uav-human-detection)
 
-### [TaskFlow](https://github.com/alymkarim/taskflow)
+My MSc research. Real time computer vision for finding people in aerial imagery during search and rescue operations.
 
-Task and notes app with a React frontend talking to a documented REST API.
-
-- Create, complete and delete tasks with optional notes
-- FastAPI REST API with Pydantic validation
-- API and integration test suite
-- Frontend on Vercel, API on Render, database on Supabase
-
-**Stack:** React, TypeScript, FastAPI, SQLAlchemy, PostgreSQL, Docker
-
-**[Live Demo](https://taskflow-six-sandy.vercel.app/)** · **[API docs](https://taskflow-i5u3.onrender.com/docs)**
-
----
-
-### [Rescue Vision: Drone-Assisted Human Detection](https://github.com/alymkarim/uav-human-detection)
-
-My MSc research. Real-time computer-vision pipeline for detecting people in aerial imagery for search and rescue operations.
-
-- YOLOv8 with five body-posture classes
-- ~0.81 mAP@0.5, ~25-30 FPS on laptop
-- Dual-scale and tiled inference
-- Object tracking with ByteTrack
+* YOLOv8 with five body posture classes, around 0.81 mAP at 25 to 30 FPS on a laptop
+* Dual scale and tiled inference
+* Object tracking with ByteTrack
 
 **Stack:** Python, PyTorch, YOLOv8, ByteTrack, Streamlit
 
 **[Live Demo](https://rescuevision.streamlit.app)**
 
----
-
-### [DeepGuard (Deepfake Detection)](https://github.com/alymkarim/DeepGuard-Deepfake-Detector)
-
-Deepfake video detector. EfficientNet-B0 trained on Vertex AI, exported to ONNX and served from a Flask function on Vercel. Scores a video frame by frame and shows the test metrics next to the verdict.
-
-- Videos split 70/15/15 before any frames are extracted, so no video leaks across the split
-- Two-stage training: frozen backbone first, then the last two blocks fine-tuned
-- ONNX export verified against PyTorch before it ships
-- Face detection in the browser with MediaPipe, only the face crops get uploaded
-- Test accuracy 0.513, ROC-AUC 0.548 — the demo page says so too
-
-**Stack:** Python, PyTorch, EfficientNet-B0, ONNX Runtime, Flask, Streamlit, MediaPipe, OpenCV, Vertex AI
-
-**[Live Demo](https://deep-guard-deepfake-detector.vercel.app/)**
-
----
-
-## Other Projects
+## Other projects
 
 ### Software
 
-**[Developer Portfolio](https://github.com/alymkarim/alya-portfolio)** — React, TypeScript, Vite. Responsive portfolio with interactive project explorer and technical blog. [Live](https://alya-portfolio-jade.vercel.app)
+* **[Developer Portfolio](https://github.com/alymkarim/alya-portfolio)**: React, TypeScript, Vite. Interactive project explorer and technical blog. [Live](https://alya-portfolio-jade.vercel.app)
+* **[TaskFlow](https://github.com/alymkarim/taskflow)**: task and notes app with a React frontend talking to a documented REST API. [Live](https://taskflow-six-sandy.vercel.app/) · [API docs](https://taskflow-i5u3.onrender.com/docs)
+* **[DeepGuard](https://github.com/alymkarim/DeepGuard-Deepfake-Detector)**: deepfake video detector, EfficientNet trained on Vertex AI and served from ONNX. Test accuracy 0.513 and ROC AUC 0.548, and the demo page says so too. [Live](https://deep-guard-deepfake-detector.vercel.app/)
+* **[UrbanTech](https://github.com/alymkarim/UTCS_Ericsson)**: Java management platform for shared workspaces, delivered by a six person Agile team. I was Scrum Master for Sprint 2.
 
-**[UrbanTech Co-Working Spaces](https://github.com/alymkarim/UTCS_Ericsson)** — Java management platform delivered by a six-person Agile team. Authentication, workspace reservations, financial reporting. Served as Scrum Master for Sprint 2.
+### AI and machine learning
 
----
+* **[Parkinson's Disease Prediction](https://github.com/alymkarim/Advanced-Machine-Learning-for-Health-Data-Handwriting-Classification-Parkinson-s-Disease-Regression)**: explainable ML on sensor handwriting data using Random Forest, KNN and SHAP
+* **AI for MedTech**: RUN-EU collaborative research exploring AI for CT and MRI analysis
 
-### AI and Machine Learning
+### Data and analytics
 
-**[Parkinson's Disease Prediction](https://github.com/alymkarim/Advanced-Machine-Learning-for-Health-Data-Handwriting-Classification-Parkinson-s-Disease-Regression)** — Explainable ML using sensor-based handwriting data. Random Forest, Decision Trees, KNN with SHAP feature interpretation.
-
-**AI for MedTech** — RUN-EU collaborative research exploring AI for CT and MRI analysis. International multidisciplinary project on medical imaging.
-
----
-
-### Data Engineering and Analytics
-
-**[Research Data Management System](https://github.com/alymkarim/Research_Project_Data_System_SQL)** — Relational database for scientists, research projects, funding and outcomes. Normalised schema with advanced SQL and PL/SQL queries. [Video](https://youtu.be/-6CFcrz3PiY)
-
-**[MongoDB Research Query Framework](https://github.com/alymkarim/Research-Project-Database-Design-using-MongoDB)** — NoSQL research dataset with 25 structured queries and aggregation pipelines. [Video](https://youtu.be/ImHuT0ZtSoQ)
-
-**[GP Practice Analytics](https://github.com/alymkarim/GP-Practice-Analytics-R-Markdown-Project)** — Operational analytics and reporting for an Irish GP practice. R, R Markdown, dplyr, ggplot2.
-
-**Irish Agricultural Productivity Dashboard** — Tableau dashboard combining crop, weather and market trends for Irish regions.
-
----
+* **[Research Data Management System](https://github.com/alymkarim/Research_Project_Data_System_SQL)**: normalised schema with advanced SQL and PL/SQL queries. [Video](https://youtu.be/-6CFcrz3PiY)
+* **[MongoDB Research Query Framework](https://github.com/alymkarim/Research-Project-Database-Design-using-MongoDB)**: 25 structured queries and aggregation pipelines. [Video](https://youtu.be/ImHuT0ZtSoQ)
+* **[GP Practice Analytics](https://github.com/alymkarim/GP-Practice-Analytics-R-Markdown-Project)**: R, R Markdown, dplyr and ggplot2 for an Irish GP practice
+* **Irish Agricultural Productivity Dashboard**: Tableau dashboard combining crop, weather and market trends for Irish regions
 
 ### Research
 
-**[Graphene-Iron Oxide Biosensor](https://iopscience.iop.org/article/10.1088/1755-1315/842/1/012016/meta)** — Award-winning impedimetric biosensor for detecting the mycotoxin zearalenone. SEDEX43 Gold FYP Award, Best Presenter, Best Poster.
-
-**Thermally Conductive 3D-Printing Resin** — Nanocomposite research to improve thermal conductivity of printable resins.
-
-**[Graphene/CNT Foam for Oil-Spill Cleanup](https://github.com/alymkarim)** — Recyclable oleophilic nanomaterial foam for oil-water separation.
-
-**Dye-Sensitized Solar Cells** — Low-cost photovoltaic research focused on improving light absorption.
-
----
+* **[Graphene Iron Oxide Biosensor](https://iopscience.iop.org/article/10.1088/1755-1315/842/1/012016/meta)**: award winning biosensor for detecting the mycotoxin zearalenone. SEDEX43 Gold FYP, Best Presenter, Best Poster
+* **Thermally Conductive 3D Printing Resin**: nanocomposite research to improve thermal conductivity of printable resins
+* **Graphene CNT Foam for Oil Spill Cleanup**: recyclable oleophilic nanomaterial foam for oil water separation
+* **Dye Sensitized Solar Cells**: low cost photovoltaic research focused on improving light absorption
 
 ### Sustainability
 
-**[EcoZone Mapper](https://github.com/alymkarim/EcoZone-Mapper-GIS-for-Waste-Management-NASA-Space-Apps-2024-)** — GIS waste-management analytics built for NASA Space Apps 2024.
+* **[EcoZone Mapper](https://github.com/alymkarim/EcoZone-Mapper-GIS-for-Waste-Management-NASA-Space-Apps-2024-)**: GIS waste management analytics built for NASA Space Apps 2024
+* **[Umbrella Green](https://github.com/alymkarim)**: modular rainwater harvesting concept for climate resilient cities. EU TalentOn second place
+* **[UTP UIR Riau Community Service](https://www.facebook.com/profile.php?id=100068842090190)**: solar panel installation and science outreach for a rural island community in Indonesia. I was Vice President
+* **Auto Vent**: automated vehicle ventilation to reduce hot car incidents. Made the Intel CREST semi finals
+* **Aquatic Plant Wastewater Treatment**: team study of natural water treatment measured using flame AAS
 
-**[Umbrella Green](https://github.com/alymkarim)** — Award-winning modular rainwater-harvesting concept for climate-resilient cities. EU TalentOn second place.
+## Right now
 
-**[UTP-UIR Riau Community Service](https://www.facebook.com/profile.php?id=100068842090190)** — Solar-panel installation and science outreach for a rural island community in Indonesia. Served as Vice President.
+Working on: **DeepGuard**, retraining on a larger dataset and scoring videos across frames instead of one.
 
-**Auto-Vent** — Automated vehicle ventilation concept to reduce hot-car incidents. Intel CREST semi-finalist.
-
-**Aquatic-Plant Wastewater Treatment** — Team study of natural water treatment measured using flame AAS.
-
----
-
-## Currently Working On
-
-- **DeepGuard** — retraining on a larger dataset, then scoring videos across frames instead of one frame at a time
-
----
-
-## Learning
-
-- Full-stack development
-- System design and software architecture
-- Cloud deployment
-- Testing and CI/CD
-- Data engineering
-- Machine learning engineering
-
----
+Learning: system design, cloud deployment, testing and CI/CD, data engineering, machine learning engineering.
 
 ## Connect
 
 [LinkedIn](https://www.linkedin.com/in/alya-karim/)
 
 **Comfortable with:**
-![My Skills](https://skillicons.dev/icons?i=py,r,js,html,css,c,java)
+![My Skills](https://skillicons.dev/icons?i=py,ts,js,r,c,java,react,nodejs,postgres,docker,git,linux)
 
 **Currently learning:**
-![Learning](https://skillicons.dev/icons?i=react,nodejs,nextjs,stripe)
+![Learning](https://skillicons.dev/icons?i=rust,nextjs,stripe,aws)
 
-### 🎧 Currently Listening on Spotify
+### 🎧 Currently listening on Spotify
+
 [![Spotify](https://spotify-github-profile.kittinanx.com/api/view?uid=12102488428&cover_image=true&theme=novatorem&bar_color=1db954&bar_color_cover=true)](https://open.spotify.com/user/12102488428)
-
-
 
 <!---
 alymkarim/alymkarim is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
-
