@@ -10,7 +10,7 @@ Physics into data into engineering is a strange path, but it means I am comforta
 
 **What I reach for most:** Python, TypeScript, SQL, React, FastAPI, PyTorch, PostgreSQL, Docker, Linux
 
-Outside of code: film photography, painting, journaling, and Spotify.
+Outside of code: film photography, painting, pottery I am still failing at. Same messy trial and error as a training run, just with worse odds. Trying to learn something new every day.
 
 ## Featured Projects
 
