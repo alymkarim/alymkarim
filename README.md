@@ -69,6 +69,8 @@ My MSc research. Real time computer vision for finding people in aerial imagery 
 
 **[Live Demo](https://rescuevision.streamlit.app)**
 
+**I also write:** [I Thought AI Was Just About Building Better Models](https://medium.com/@alyamkarim97/i-thought-ai-was-just-about-building-better-models-i-couldnt-have-been-more-wrong-690ecac992d2) — on Medium, about how software engineering changed what I think AI is actually about.
+
 ## Other projects
 
 * **[InsightForge AI](https://github.com/alymkarim/InsightForge-AI)**: trains, compares and explains models from one dataset upload, with feature importance and a prediction dashboard. [Live](https://insight-forge-ai-bb4f.vercel.app/)
@@ -86,11 +88,12 @@ Before software: award winning graphene iron oxide biosensor for mycotoxin detec
 
 Open to software engineering roles in Ireland.
 
-Learning: Rust, system design, testing and CI/CD, and cloud deployment.
+Learning: Rust, Next.js, system design, testing and CI/CD, and cloud deployment.
 
 ## Connect
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alya-karim/)
+[![CV](https://img.shields.io/badge/Download_CV-E60023?style=for-the-badge&logo=adobeacrobatreader&logoColor=white)](https://alya-portfolio-jade.vercel.app/Alya_M_Karim_CV.pdf)
 
 **Comfortable with:**
 ![My Skills](https://skillicons.dev/icons?i=py,ts,js,r,c,java,react,nodejs,postgres,docker,git,linux)
